@@ -4,14 +4,13 @@ import Purchases, {
   CustomerInfo,
 } from 'react-native-purchases';
 import { Platform } from 'react-native';
-import { custom } from 'zod';
 
 // RevenueCat configuration
 const REVENUECAT_CONFIG = {
 
   apiKeys: {
     apple: 'appl_YOUR_APPLE_API_KEY',
-    google: 'goog_HveuqiqhyWQwsXRkbMPptyXxhry',
+    google: process.env.EXPO_PUBLIC_REVENUECAT_GOOGLE_KEY || '',
   },
   // Entitlement identifier from RevenueCat
   entitlements: {

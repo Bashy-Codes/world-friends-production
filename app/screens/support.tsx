@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { View, Text, StyleSheet, ScrollView, Platform, TouchableOpacity, Linking } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
@@ -9,10 +9,16 @@ import { Button } from "@/components/ui/Button";
 import { useRevenueCat } from "@/hooks/useRevenueCat";
 import Toast from "react-native-toast-message";
 import { useTranslation } from "react-i18next";
+import { useQuery } from "convex/react";
+import { api } from "@/convex/_generated/api";
+import { ScreenLoading } from "@/components/ScreenLoading";
 
 export default function SupportScreen() {
     const theme = useTheme();
     const { t } = useTranslation();
+
+    // Get current user ID from Convex
+    const currentUserId = useQuery(api.users.getCurrentUserId);
 
     // RevenueCat hook
     const {
@@ -24,7 +30,22 @@ export default function SupportScreen() {
         supporterPackage,
         makePurchase,
         restoreUserPurchases,
+        initializeSDK,
     } = useRevenueCat();
+
+    // Initialize SDK when screen mounts and user ID is available
+    useEffect(() => {
+        if (currentUserId && Platform.OS !== 'web' && !isInitialized) {
+            initializeSDK(currentUserId);
+        }
+    }, [currentUserId, initializeSDK, isInitialized]);
+
+    // Show loading if initializing or loading
+    if (!isInitialized || isLoading) {
+        return (
+            <ScreenLoading />
+        );
+    }
 
     const handleSupport = async () => {
         if (Platform.OS === 'web') {
@@ -58,7 +79,7 @@ export default function SupportScreen() {
     };
 
 
-    // Get package price for display
+    // Get package price for display with fallback
     const packagePrice = supporterPackage?.product.priceString;
 
     return (
@@ -123,9 +144,9 @@ export default function SupportScreen() {
                 <View style={styles.ctaSection}>
                     <Button
                         iconName="heart"
-                        text={packagePrice}
+                        text={t("supporter.ctaButton") + packagePrice}
                         onPress={handleSupport}
-                        disabled={isPurchasing || isRestoring}
+                        disabled={isPurchasing || isRestoring || !supporterPackage || packagePrice === 'Loading...'}
                     />
                     <TouchableOpacity activeOpacity={0.8} onPress={handleRevenueCatPress}>
                         <Text style={[styles.ctaNote, { color: theme.colors.textMuted }]}>

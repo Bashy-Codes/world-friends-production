@@ -3,7 +3,7 @@ import "react-native-gesture-handler";
 
 import { Platform } from "react-native";
 import { ConvexAuthProvider } from "@convex-dev/auth/react";
-import { ConvexReactClient, useQuery } from "convex/react";
+import { ConvexReactClient } from "convex/react";
 import { Stack } from "expo-router";
 import * as SecureStore from "expo-secure-store";
 import { SystemBarsProvider } from "@/providers/ThemeProvider";
@@ -13,9 +13,6 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import Toast from "react-native-toast-message";
 import { toastConfig } from "@/components/common/ToastConfig";
-import { useRevenueCat } from "@/hooks/useRevenueCat";
-import { api } from "@/convex/_generated/api";
-import { useEffect } from "react";
 
 const convex = new ConvexReactClient(process.env.EXPO_PUBLIC_CONVEX_URL!, {
   unsavedChangesWarning: false,
@@ -29,15 +26,6 @@ const secureStorage = {
 
 function AppContent() {
   const theme = useTheme();
-  const { initializeSDK } = useRevenueCat();
-  const currentUserId = useQuery(api.users.getCurrentUserId);
-
-  // Initialize RevenueCat when user ID is available
-  useEffect(() => {
-    if (currentUserId && Platform.OS !== "web") {
-      initializeSDK(currentUserId);
-    }
-  }, [currentUserId, initializeSDK]);
 
   // Create navigation theme that maps existing theme
   const navigationTheme = {
