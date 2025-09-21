@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "WorldFriends",
+    "slug": "worldfriends",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "backgroundColor": "#000000",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000",
+      "width": 200
+    },
+    "scheme": "worldfriends",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to take photos",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to select and save images.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs access to save photos to your photo library."
+      },
+      "bundleIdentifier": "app.worldfriends"
+    },
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES"
+      ],
+      "package": "app.worldfriends",
+      "versionCode": 1
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      "expo-secure-store",
+      "expo-splash-screen",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow app to access your camera to take photos."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them.",
+          "cameraPermission": "The app accesses your camera to let you take photos."
+        }
+      ],
+      [
+        "react-native-edge-to-edge",
+        {
+          "android": {
+            "parentTheme": "Default",
+            "enforceNavigationBarContrast": false
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ce65f00e-4922-461e-9267-e6d0e164b158"
+      }
+    }
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "screenTitles": {
+    "communityGuidelines": "コミュニティルール",
+    "home": "ホーム",
+    "discover": "発見",
+    "friends": {
+      "title": "友達",
+      "secondSection": "リクエスト"
+    },
+    "conversations": "チャット",
+    "profile": "プロフィール",
+    "post": "投稿",
+    "createPost": "投稿を作成",
+    "notifications": "通知",
+    "report": "報告",
+    "settings": "設定",
+    "profileManagement": {
+      "first": "基本情報",
+      "second": "言語と国",
+      "third": "自己紹介",
+      "fourth": "旅行と興味",
+      "final": "完了"
+    },
+    "composeLetter": "手紙を書く",
+    "letters": "手紙",
+    "letter": "手紙",
+    "supporter": "サポーターになる",
+    "appInfo": "プラットフォーム情報"
+  },
+  "common": {
+    "continue": "続行",
+    "done": "完了",
+    "back": "戻る",
+    "createCollection": "コレクション作成",
+    "selected": "選択済み",
+    "searchPlaceholder": "検索...",
+    "typeMessage": "メッセージを入力...",
+    "loading": "読み込み中...",
+    "reply": "返信",
+    "view": "表示",
+    "genders": {
+      "male": "男性",
+      "female": "女性",
+      "other": "その他"
+    },
+    "emptyState": "項目が見つかりません",
+    "day": "日",
+    "days": "日"
+  },
+  "profile": {
+    "actionText": {
+      "settings": "設定",
+      "settingsDescription": "アカウントと設定を管理"
+    },
+    "addFriend": "友達追加",
+    "pendingRequest": "承認待ち",
+    "items": {
+      "aboutMe": "自己紹介",
+      "languages": "言語",
+      "travel": "旅行",
+      "hobbies": "趣味",
+      "books": "本"
+    },
+    "subsections": {
+      "speaking": "話せる言語",
+      "learning": "学習中",
+      "visited": "訪問済み",
+      "wantToVisit": "行きたい場所"
+    },
+    "restriction": {
+      "posts": "このユーザーの投稿を見るには友達である必要があります",
+      "collections": "このユーザーのコレクションを見るには友達である必要があります"
+    },
+    "friendRequestModal.title": "友達リクエストを送る",
+    "friendRequestModal.placeholder": "自己紹介メッセージを書いてください "
+  },
+  "createPost": {
+    "placeholder": "今何を考えていますか？",
+    "sections": {
+      "addImages": "画像を追加",
+      "addTags": "タグを追加",
+      "selectCollection": "コレクション選択"
+    },
+    "infoMessage": "あなたの投稿は友達にのみ表示されます"
+  },
+  "composeLetter": {
+    "letterTitleInput": "手紙のタイトル",
+    "inputPlaceholder": "ここに手紙を書いてください...創造性を発揮しましょう！",
+    "deliverTo": "送り先",
+    "schedule": "配信をスケジュール",
+    "deliveryTimeInfo": "あなたの手紙が配信されます",
+    "deliveryInPluralDays": "{{scheduleDays}}日後"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "プロフィール",
+      "preferences": "設定",
+      "account": "アカウント",
+      "platformInfo": "プラットフォーム情報"
+    },
+    "editProfile": {
+      "title": "プロフィール編集",
+      "description": "プロフィール情報と設定を更新"
+    },
+    "theme": {
+      "title": "テーマ"
+    },
+    "language": {
+      "title": "言語",
+      "description": "希望する言語を選択"
+    },
+    "logout": {
+      "title": "ログアウト",
+      "description": "アカウントからログアウト"
+    },
+    "deleteAccount": {
+      "title": "アカウント削除",
+      "description": "アカウントとデータを完全に削除"
+    },
+    "platformInfo": {
+      "title": "プラットフォーム情報",
+      "description": "プラットフォームとルールについて詳しく"
+    },
+    "supportApp": {
+      "title": "プラットフォームをサポート",
+      "description": "サポーターになることができます！"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "ご質問やサポートが必要ですか？お気軽にどうぞ！"
+    }
+  },
+  "createProfile": {
+    "basicInfo": {
+      "name": {
+        "label": "名前",
+        "placeholder": "お名前を入力 "
+      },
+      "username": {
+        "label": "ユーザー名",
+        "placeholder": "ユーザー名を選択",
+        "available": "ユーザー名は利用可能です",
+        "taken": "ユーザー名は既に使用されています"
+      },
+      "birthdate": {
+        "label": "生年月日",
+        "placeholder": "生年月日を選択"
+      },
+      "gender": {
+        "label": "性別"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "国",
+        "placeholder": "お住まいの国を選択"
+      },
+      "spokenLanguages": {
+        "label": "話せる言語",
+        "placeholder": "話せる言語を選択"
+      },
+      "learningLanguages": {
+        "label": "学習中の言語",
+        "placeholder": "学習中の言語を選択"
+      }
+    },
+    "aboutMe": {
+      "bio": {
+        "label": "自己紹介",
+        "placeholder": "自分について教えてください...創造性を発揮しましょう！"
+      },
+      "hobbies": {
+        "label": "趣味・興味",
+        "placeholder": "どんなことを楽しんでいますか？"
+      },
+      "favoriteBooks": {
+        "label": "お気に入りの本",
+        "placeholder": "お気に入りの本をシェア"
+      },
+      "booksModal": {
+        "title": "お気に入りの本を追加",
+        "inputPlaceholder": "本のタイトルを入力..."
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "訪問した国",
+        "placeholder": "訪問した国を選択"
+      },
+      "wantToVisitCountries": {
+        "label": "行ってみたい国",
+        "placeholder": "行ってみたい国を選択"
+      }
+    },
+    "finalize": {
+      "finalizeTitle": "もう少しで完了です 🥳",
+      "genderPreference": {
+        "label": "性別設定",
+        "enabled": "有効",
+        "disabled": "無効",
+        "descriptionEnabled": "同じ性別の人とのみ繋がることができます",
+        "descriptionDisabled": "すべての性別の人と繋がることができます"
+      },
+      "safetyInfo": {
+        "ageRestriction": "18歳未満のため、年上の方からの連絡やプロフィール閲覧はできません",
+        "genderPreference": "性別設定が有効な場合、同じ性別の人のみが表示されます"
+      },
+      "profilePicture": {
+        "label": "プロフィール画像",
+        "description": "他の人があなたを認識できるよう写真を追加",
+        "addPhoto": "写真を追加",
+        "changePhoto": "写真を変更"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "セキュリティ上の理由で一部の情報は変更できません"
+    }
+  },
+  "report": {
+    "reporting": "報告",
+    "user": "ユーザー",
+    "post": "投稿",
+    "postTitle": "投稿タイトル",
+    "description": "不適切なコンテンツを報告してコミュニティを安全に保ちましょう",
+    "sections": {
+      "issue": "問題は何ですか？",
+      "details": "追加詳細",
+      "evidence": "証拠"
+    },
+    "types": {
+      "spam": {
+        "label": "スパム",
+        "description": "不要または繰り返しのコンテンツ"
+      },
+      "harassment": {
+        "label": "嫌がらせ",
+        "description": "いじめや嫌がらせ"
+      },
+      "hate_speech": {
+        "label": "ヘイトスピーチ",
+        "description": "憎悪的または差別的なコンテンツ"
+      },
+      "inappropriate_content": {
+        "label": "不適切なコンテンツ",
+        "description": "コミュニティガイドラインに違反するコンテンツ"
+      },
+      "other": {
+        "label": "その他",
+        "description": "その他の問題"
+      }
+    },
+    "detailsPlaceholder": "詳細を入力してください...",
+    "evidenceDescription": "必須：スクリーンショットやその他の証拠を追加",
+    "addScreenshot": "スクリーンショット追加",
+    "submitReport": "報告を送信"
+  },
+  "onboarding": {
+    "readGuidelines": "コミュニティルールを読む",
+    "globalConnections": {
+      "title": "グローバルなつながり",
+      "description": "世界中の人々とつながりましょう"
+    },
+    "languageExchange": {
+      "title": "言語交換",
+      "description": "ネイティブスピーカーと言語を練習"
+    },
+    "culturalDiscovery": {
+      "title": "文化の発見",
+      "description": "さまざまな文化や伝統を学ぼう"
+    }
+  },
+  "guidelinesScreen": {
+    "safeCommunityStandards": "安全なコミュニティ基準",
+    "introDescription": "WorldFriendsへようこそ！コミュニティガイドラインをお読みいただき、同意してください。",
+    "agreement": "コミュニティガイドラインに同意します"
+  },
+  "supporter": {
+    "title": "WorldFriendsをサポート",
+    "whySectionTitle": "なぜサポーターになるのですか？",
+    "whySectionDesc": "WorldFriendsは一人の開発者が情熱を込めて作ったプロジェクトです。一度限りの$2.99の寄付が継続的な開発を支援し、アプリを皆様に無料で提供し続けることができます",
+    "getSection": {
+      "title": "得られるもの",
+      "firstBenefit": "プロフィールに特別なサポーターハートバッジ",
+      "secondBenefit": "永遠の感謝とサポーターステータス",
+      "thirdBenefit": "世界中の人々をつなげることへの貢献"
+    },
+    "ctaButton": "サポーターになる - ",
+    "ctaNote": "一度きりの支払い • RevenueCat提供 🐱",
+    "thankYou": "サポートありがとうございます！ ❤️"
+  },
+  "appInfo": {
+    "sponseredBy": "誇らしきスポンサー",
+    "convexDesc": "ソフトウェア開発者の人生を変えるリアクティブBackend as a Service",
+    "aboutApp": "このプラットフォームについて",
+    "infoDesc": "WorldFriendsは、グローバルなつながりの力を信じる献身的な学生によって作られた情熱プロジェクトです。このプラットフォームは、異なる文化、言語、背景を持つ人々を結びつけます",
+    "getInTouch": "お問い合わせ",
+    "footerText": "学生が❤️を込めて制作",
+    "appVersion": "© 2025 WorldFriends • バージョン 1.0.0"
+  },
+  "auth": {
+    "signupTitle": "アカウント作成",
+    "signupSubTitle": "参加して旅を始めましょう",
+    "loginTitle": "おかえりなさい",
+    "loginSubTitle": "認証情報を入力",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワード確認",
+    "noAccountCTA": "アカウントをお持ちでない方は ",
+    "alreadyHaveAccountCTA": "すでにアカウントをお持ちの方は ",
+    "signIn": "ログイン",
+    "signUp": "新規登録",
+    "verifyEmail": "メール確認",
+    "enterCode": "送信された6桁のコードを入力"
+  },
+  "collections": {
+    "create": {
+      "title": "新しいコレクション",
+      "placeholder": "コレクション名を入力..."
+    }
+  },
+  "comments": {
+    "addComment": "コメントを追加...",
+    "reply": "返信",
+    "replyingTo": "返信先",
+    "showReply": "返信を表示",
+    "hideReply": "返信を非表示"
+  },
+  "greetings": {
+    "goodMorning": "おはようございます",
+    "goodAfternoon": "こんにちは",
+    "goodEvening": "こんばんは",
+    "goodNight": "おやすみなさい"
+  },
+  "filterModal": {
+    "title": "フィルター",
+    "country": "国",
+    "languageSpoken": "話せる言語",
+    "languageLearning": "学習中の言語"
+  },
+  "emptyState": {
+    "notifications": "まだ通知はありません",
+    "userNotFound": "ユーザーが見つかりません"
+  },
+  "friendRequestSheet": {
+    "title": "友達リクエスト送信",
+    "message": "メッセージ",
+    "placeholder": "メッセージを書く..."
+  },
+  "userCard": {
+    "country": "国",
+    "speaks": "話せる言語",
+    "learning": "学習中"
+  },
+  "notifications": {
+    "clearAll": "すべてクリア",
+    "emptySubtext": "友達リクエスト、メッセージ、その他の活動に関する通知がここに表示されます"
+  },
+  "actions": {
+    "composeLetter": "手紙を書く",
+    "writeSomething": "何か書く",
+    "deletePost": "投稿を削除",
+    "removeFromCollection": "コレクションから削除",
+    "addToCollection": "コレクションに追加",
+    "reportPost": "投稿を報告",
+    "reportUser": "ユーザーを報告",
+    "blockUser": "ユーザーをブロック",
+    "removeFriend": "友達を削除",
+    "deleteConversation": "チャットを削除",
+    "deleteMessage": "メッセージを削除",
+    "deleteLetter": "手紙を削除"
+  },
+  "confirmation": {
+    "logout": {
+      "description": "ログアウトしてもよろしいですか？"
+    },
+    "deleteAccount": {
+      "description": "アカウントを削除してもよろしいですか？この操作は元に戻せません。"
+    },
+    "removeFriend": {
+      "description": "この友達を削除してもよろしいですか？ "
+    },
+    "deleteComment": {
+      "description": "このコメントを削除してもよろしいですか？"
+    },
+    "deleteConversation": {
+      "description": "このチャットを削除してもよろしいですか？この操作は元に戻せません。"
+    },
+    "deleteMessage": {
+      "description": "このメッセージを削除してもよろしいですか？"
+    },
+    "deleteCollection": {
+      "description": "このコレクションを削除してもよろしいですか？この操作は元に戻せません。"
+    },
+    "removeFromCollection": {
+      "description": "この投稿をコレクションから削除してもよろしいですか？"
+    },
+    "deletePost": {
+      "description": "この投稿を削除してもよろしいですか？この操作は元に戻せません。"
+    },
+    "discardPost": {
+      "description": "この投稿を破棄してもよろしいですか？"
+    },
+    "createPost": {
+      "description": "友達と投稿をシェアする準備はできましたか？"
+    },
+    "blockUser": {
+      "description": "このユーザーをブロックしてもよろしいですか？"
+    },
+    "discardLetter": {
+      "description": "この手紙を破棄してもよろしいですか？すべての進行状況が失われます。"
+    },
+    "sendLetter": {
+      "description": "この手紙は{{countryFlag}}の{{name}}さんに送られます"
+    }
+  },
+  "successToasts": {
+    "collectionCreated": {
+      "text1": "コレクション作成完了",
+      "text2": "コレクションが作成されました"
+    },
+    "collectionDeleted": {
+      "text1": "コレクション削除完了",
+      "text2": "コレクションが正常に削除されました"
+    },
+    "postAddedToCollection": {
+      "text1": "投稿追加完了",
+      "text2": "投稿がコレクションに追加されました"
+    },
+    "postRemovedFromCollection": {
+      "text1": "投稿削除完了",
+      "text2": "投稿がコレクションから削除されました"
+    },
+    "letterDeleted": {
+      "text1": "手紙削除完了",
+      "text2": "手紙が正常に削除されました"
+    },
+    "languageChanged": {
+      "text1": "言語変更完了",
+      "text2": "言語設定が更新されました"
+    },
+    "accountDeleted": {
+      "text1": "アカウント削除完了",
+      "text2": "アカウントが完全に削除されました"
+    },
+    "reportSubmitted": {
+      "text1": "報告送信完了",
+      "text2": "コミュニティを安全に保つためのご協力ありがとうございます"
+    },
+    "conversationDeleted": {
+      "text1": "チャット削除完了",
+      "text2": "チャットが削除されました"
+    },
+    "postDeleted": {
+      "text1": "投稿削除完了",
+      "text2": "あなたの投稿が削除されました"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "エラー",
+      "text2": "問題が発生しました。もう一度お試しください。"
+    },
+    "validationError": {
+      "text1": "入力エラー",
+      "text2": "入力内容を確認してください"
+    },
+    "invalidAuthCredentials": {
+      "text1": "無効な認証情報",
+      "text2": "メールアドレスまたはパスワードが間違っています"
+    },
+    "invalidOTP": {
+      "text1": "無効なコード",
+      "text2": "6桁のコードを入力してください"
+    },
+    "postAlreadyInCollection": {
+      "text1": "既にコレクションに存在",
+      "text2": "この投稿は既にコレクションに含まれています"
+    },
+    "cameraPermission": {
+      "text1": "カメラ権限が必要",
+      "text2": "写真撮影のためカメラ権限を許可してください"
+    },
+    "photoLibraryPermission": {
+      "text1": "写真ライブラリ権限が必要",
+      "text2": "写真選択のため写真ライブラリ権限を許可してください"
+    }
+  },
+  "guidelines": {
+    "first": {
+      "title": "他の人を尊重する",
+      "description": "すべてのコミュニティメンバーを親切、尊敬、尊厳をもって扱ってください。ハラスメント、いじめ、差別的行動は許可されません。"
+    },
+    "second": {
+      "title": "デートやイチャつく行動は禁止",
+      "description": "このプラットフォームは友情と文化交流のみを目的としています。ロマンチックなアプローチやデートの誘いは不適切です。"
+    },
+    "third": {
+      "title": "対面での会合は禁止",
+      "description": "安全のため、他のユーザーとの対面での会合を手配しないでください。すべての交流をアプリの安全な環境内で保ってください。"
+    },
+    "fourth": {
+      "title": "個人情報を保護する",
+      "description": "フルネーム、住所、電話番号、金融情報、その他の機密データなどの個人的な詳細を決して共有しないでください。"
+    },
+    "fifth": {
+      "title": "適切な言葉遣いを使用する",
+      "description": "会話をクリーンで家族向けに保ってください。悪口、露骨なコンテンツ、攻撃的な言葉は厳しく禁止されています。"
+    },
+    "sixth": {
+      "title": "不適切な行動を報告する",
+      "description": "これらのガイドラインの違反に遭遇した場合は、安全なコミュニティを維持するために直ちに報告してください。"
+    },
+    "seventh": {
+      "title": "本物であること",
+      "description": "本物の写真を使用し、自分について正直な情報を提供してください。偽のプロフィールやキャットフィッシングは許可されません。"
+    },
+    "eighth": {
+      "title": "文化的違いを尊重する",
+      "description": "多様性を受け入れ、さまざまな文化、伝統、視点について開かれた心で学ぶことを厭わないでください。"
+    },
+    "ninth": {
+      "title": "スパムや自己宣伝は禁止",
+      "description": "繰り返しメッセージを送信したり、広告をしたり、外部サービス、ウェブサイト、ソーシャルメディアアカウントを宣伝したりしないでください。"
+    },
+    "tenth": {
+      "title": "意味のある会話を維持する",
+      "description": "表面的な交流ではなく、友情、言語学習、文化交流に焦点を当てた真の会話に参加してください。"
+    },
+    "eleventh": {
+      "title": "プライバシー設定を尊重する",
+      "description": "他のユーザーのプライバシー設定と境界を尊重してください。誰かが快適に感じる以上のことを共有するよう強制しないでください。"
+    },
+    "twelfth": {
+      "title": "商業活動は禁止",
+      "description": "このプラットフォームは商業取引、製品販売、商業活動のためのものではありません。交流を社交的で友好的に保ってください。"
+    },
+    "thirteenth": {
+      "title": "機能を責任を持って使用する",
+      "description": "すべてのアプリ機能を意図された通りに使用してください。真の友情構築以外の目的で機能を悪用または乱用しないでください。"
+    },
+    "fourteenth": {
+      "title": "言語学習者に忍耐強く接する",
+      "description": "あなたの言語を学んでいるユーザーとコミュニケーションを取る際は、理解と忍耐を示してください。親切に改善を手助けしてください。"
+    },
+    "fifteenth": {
+      "title": "ヘイトスピーチや差別は禁止",
+      "description": "宗教、国籍、個人的特徴に基づくヘイトスピーチ、人種差別、性差別、差別のあらゆる形態は禁止されています。"
+    },
+    "sixteenth": {
+      "title": "年齢に適した交流を維持する",
+      "description": "すべての会話と共有コンテンツが、多様なコミュニティのすべての年齢のユーザーに適していることを確認してください。"
+    },
+    "seventeenth": {
+      "title": "外部連絡先を共有しない",
+      "description": "メール、ソーシャルメディアハンドル、メッセージングアプリの詳細などの外部連絡先情報を共有または要求しないでください。"
+    },
+    "eighteenth": {
+      "title": "タイムゾーンと可用性を尊重する",
+      "description": "ユーザーがさまざまなタイムゾーンから来ていることを覚えておいてください。即座の返信を期待せず、他の人の可用性を尊重してください。"
+    },
+    "nineteenth": {
+      "title": "写真を適切に保つ",
+      "description": "適切で示唆的でない写真のみを共有してください。プロフィール写真は顔をはっきりと示し、すべての観客に適している必要があります。"
+    },
+    "twentieth": {
+      "title": "地域の法律に従う",
+      "description": "プラットフォーム上でのすべての活動が、あなたの国と地域の地域法と規制に準拠していることを確認してください。"
+    }
+  },
+  "notification": {
+    "friend_request_sent": "{{country}}の{{senderName}}さんから友達リクエストが届きました",
+    "friend_request_accepted": "{{country}}の{{senderName}}さんがあなたの友達リクエストを承認しました",
+    "friend_request_rejected": "{{senderName}}さんがあなたの友達リクエストを拒否しました",
+    "friend_removed": "{{senderName}}さんがあなたを友達から削除しました",
+    "conversation_deleted": "{{senderName}}さんがチャットを削除しました",
+    "user_blocked": "{{senderName}}さんがあなたをブロックしました",
+    "post_reaction": "{{country}}の{{senderName}}さんがあなたの投稿にリアクションしました",
+    "post_commented": "{{country}}の{{senderName}}さんがあなたの投稿にコメントしました",
+    "comment_replied": "{{country}}の{{senderName}}さんがあなたのコメントに返信しました",
+    "letter_scheduled": "{{country}}の{{senderName}}さんからの手紙を{{count}}{{dayLabel}}後に受け取る予定です"
+  },
+  "time": {
+    "just_now": "たった今",
+    "minute": "1分前",
+    "minutes": "分前",
+    "hour": "1時間前",
+    "hours": "時間前",
+    "yesterday": "昨日",
+    "tomorrow": "明日",
+    "days": "日前",
+    "week": "1週間前",
+    "weeks": "週間前",
+    "month": "1ヶ月前",
+    "months": "ヶ月前",
+    "year": "1年前",
+    "years": "年前"
+  }
+}

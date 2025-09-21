@@ -1,0 +1,600 @@
+{
+  "screenTitles": {
+    "communityGuidelines": "Topluluk Kuralları",
+    "home": "Ana Sayfa",
+    "discover": "Keşfet",
+    "friends": {
+      "title": "Arkadaşlar",
+      "secondSection": "İstekler"
+    },
+    "conversations": "Sohbetler",
+    "profile": "Profil",
+    "post": "Gönderi",
+    "createPost": "Gönderi Oluştur",
+    "notifications": "Bildirimler",
+    "report": "Şikayet Et",
+    "settings": "Ayarlar",
+    "profileManagement": {
+      "first": "Temel Bilgiler",
+      "second": "Diller ve Ülke",
+      "third": "Hakkımda",
+      "fourth": "Seyahat ve İlgi Alanları",
+      "final": "Tamamla"
+    },
+    "composeLetter": "Mektup Yaz",
+    "letters": "Mektuplar",
+    "letter": "Mektup",
+    "supporter": "Destekçi Ol",
+    "appInfo": "Uygulama Bilgisi"
+  },
+  "common": {
+    "continue": "Devam Et",
+    "done": "Tamam",
+    "back": "Geri",
+    "createCollection": "Koleksiyon Oluştur",
+    "selected": "Seçili",
+    "searchPlaceholder": "Ara...",
+    "typeMessage": "Mesaj yaz...",
+    "loading": "Yükleniyor...",
+    "reply": "Yanıtla",
+    "view": "Görüntüle",
+    "genders": {
+      "male": "Erkek",
+      "female": "Kadın",
+      "other": "Diğer"
+    },
+    "emptyState": "Öğe Bulunamadı",
+    "day": "gün",
+    "days": "gün"
+  },
+  "profile": {
+    "actionText": {
+      "settings": "Ayarlar",
+      "settingsDescription": "Hesabınızı ve tercihlerinizi yönetin"
+    },
+    "addFriend": "Arkadaş Ekle",
+    "pendingRequest": "Bekleyen İstek",
+    "items": {
+      "aboutMe": "Hakkımda",
+      "languages": "Diller",
+      "travel": "Seyahat",
+      "hobbies": "Hobiler",
+      "books": "Kitaplar"
+    },
+    "subsections": {
+      "speaking": "Konuştuğum",
+      "learning": "Öğrendiğim",
+      "visited": "Ziyaret Ettiğim",
+      "wantToVisit": "Ziyaret Etmek İstediğim"
+    },
+    "restriction": {
+      "posts": "Bu kullanıcının gönderilerini görmek için arkadaş olmalısınız",
+      "collections": "Bu kullanıcının koleksiyonlarını görmek için arkadaş olmalısınız"
+    },
+    "friendRequestModal.title": "Arkadaşlık İsteği Gönder",
+    "friendRequestModal.placeholder": "Kendinizi tanıtmak için bir mesaj yazın "
+  },
+  "createPost": {
+    "placeholder": "Aklınızdan neler geçiyor?",
+    "sections": {
+      "addImages": "Resim Ekle",
+      "addTags": "Etiket Ekle",
+      "selectCollection": "Koleksiyon Seç"
+    },
+    "infoMessage": "Gönderileriniz sadece arkadaşlarınız tarafından görülebilir"
+  },
+  "composeLetter": {
+    "letterTitleInput": "Mektup Başlığı",
+    "inputPlaceholder": "Mektubunuzu buraya yazın... yaratıcı olun!",
+    "deliverTo": "Teslim Et",
+    "schedule": "Teslimatı Planla",
+    "deliveryTimeInfo": "Mektubunuz teslim edilecek",
+    "deliveryInPluralDays": "{{scheduleDays}} gün içinde"
+  },
+  "settings": {
+    "sectionTitles": {
+      "profile": "Profil",
+      "preferences": "Tercihler",
+      "account": "Hesap",
+      "platformInfo": "Platform Bilgisi"
+    },
+    "editProfile": {
+      "title": "Profili Düzenle",
+      "description": "Profil bilgilerinizi ve tercihlerinizi güncelleyin"
+    },
+    "theme": {
+      "title": "Tema"
+    },
+    "language": {
+      "title": "Dil",
+      "description": "Tercih ettiğiniz dili seçin"
+    },
+    "logout": {
+      "title": "Çıkış Yap",
+      "description": "Hesabınızdan çıkış yapın"
+    },
+    "deleteAccount": {
+      "title": "Hesabı Sil",
+      "description": "Hesabınızı ve verilerinizi kalıcı olarak silin"
+    },
+    "platformInfo": {
+      "title": "Platform Bilgisi",
+      "description": "Platformumuz ve kurallarımız hakkında daha fazla bilgi edinin"
+    },
+    "supportApp": {
+      "title": "Platformu Destekle",
+      "description": "Destekçi olabilirsiniz!"
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Sorularınız mı var veya desteğe mi ihtiyacınız var? Bizimle iletişime geçin!"
+    }
+  },
+  "createProfile": {
+    "basicInfo": {
+      "name": {
+        "label": "Ad",
+        "placeholder": "Adınızı girin "
+      },
+      "username": {
+        "label": "Kullanıcı Adı",
+        "placeholder": "Bir kullanıcı adı seçin",
+        "available": "Kullanıcı adı müsait",
+        "taken": "Kullanıcı adı alınmış"
+      },
+      "birthdate": {
+        "label": "Doğum Tarihi",
+        "placeholder": "Doğum tarihinizi seçin"
+      },
+      "gender": {
+        "label": "Cinsiyet"
+      }
+    },
+    "languagesCountry": {
+      "country": {
+        "label": "Ülke",
+        "placeholder": "Ülkenizi seçin"
+      },
+      "spokenLanguages": {
+        "label": "Konuştuğum Diller",
+        "placeholder": "Konuştuğunuz dilleri seçin"
+      },
+      "learningLanguages": {
+        "label": "Öğrendiğim Diller",
+        "placeholder": "Öğrendiğiniz dilleri seçin"
+      }
+    },
+    "aboutMe": {
+      "bio": {
+        "label": "Hakkımda",
+        "placeholder": "Diğerlerine kendinizi tanıtın... yaratıcı olun!"
+      },
+      "hobbies": {
+        "label": "Hobiler ve İlgi Alanları",
+        "placeholder": "Ne yapmaktan hoşlanıyorsunuz?"
+      },
+      "favoriteBooks": {
+        "label": "Favori Kitaplar",
+        "placeholder": "Favori kitaplarınızı paylaşın"
+      },
+      "booksModal": {
+        "title": "Favori Kitap Ekle",
+        "inputPlaceholder": "Kitap adı yazın..."
+      }
+    },
+    "travelInterests": {
+      "visitedCountries": {
+        "label": "Ziyaret Ettiğim Ülkeler",
+        "placeholder": "Ziyaret ettiğiniz ülkeleri seçin"
+      },
+      "wantToVisitCountries": {
+        "label": "Ziyaret Etmek İstediğim Ülkeler",
+        "placeholder": "Ziyaret etmek istediğiniz ülkeleri seçin"
+      }
+    },
+    "finalize": {
+      "finalizeTitle": "Neredeyse bitti 🥳",
+      "genderPreference": {
+        "label": "Cinsiyet Tercihi",
+        "enabled": "Etkin",
+        "disabled": "Devre Dışı",
+        "descriptionEnabled": "Sadece kendi cinsinizden kişileri görebilir ve görülebilirsiniz",
+        "descriptionDisabled": "Tüm cinsiyetlerden kişileri görebilir ve görülebilirsiniz"
+      },
+      "safetyInfo": {
+        "ageRestriction": "18 yaşından küçük olduğunuz için, büyük kişiler sizi göremez ve iletişime geçemez",
+        "genderPreference": "Cinsiyet tercihi etkinken sadece kendi cinsinizden kişileri görebilirsiniz"
+      },
+      "profilePicture": {
+        "label": "Profil Fotoğrafı",
+        "description": "Diğerlerinin sizi tanımasına yardımcı olması için bir fotoğraf ekleyin",
+        "addPhoto": "Fotoğraf Ekle",
+        "changePhoto": "Fotoğraf Değiştir"
+      }
+    }
+  },
+  "editProfile": {
+    "basicInfo": {
+      "infoMessage": "Güvenlik nedenleriyle bazı bilgiler değiştirilemez"
+    }
+  },
+  "report": {
+    "reporting": "Şikayet",
+    "user": "Kullanıcı",
+    "post": "Gönderi",
+    "postTitle": "Gönderi Başlığı",
+    "description": "Uygunsuz içeriği bildirerek topluluğumuzu güvenli tutmamıza yardımcı olun",
+    "sections": {
+      "issue": "Sorun nedir?",
+      "details": "Ek Ayrıntılar",
+      "evidence": "Kanıt"
+    },
+    "types": {
+      "spam": {
+        "label": "Spam",
+        "description": "İstenmeyen veya tekrarlanan içerik"
+      },
+      "harassment": {
+        "label": "Taciz",
+        "description": "Zorbalık veya taciz"
+      },
+      "hate_speech": {
+        "label": "Nefret Söylemi",
+        "description": "Nefret dolu veya ayrımcı içerik"
+      },
+      "inappropriate_content": {
+        "label": "Uygunsuz İçerik",
+        "description": "Topluluk kurallarını ihlal eden içerik"
+      },
+      "other": {
+        "label": "Diğer",
+        "description": "Başka bir şey"
+      }
+    },
+    "detailsPlaceholder": "Lütfen ek ayrıntılar sağlayın...",
+    "evidenceDescription": "Gerekli: Ekran görüntüsü veya diğer kanıt ekleyin",
+    "addScreenshot": "Ekran Görüntüsü Ekle",
+    "submitReport": "Şikayeti Gönder"
+  },
+  "onboarding": {
+    "readGuidelines": "Topluluk Kurallarını Oku",
+    "globalConnections": {
+      "title": "Küresel Bağlantılar",
+      "description": "Dünyanın her yerinden insanlarla bağlantı kurun"
+    },
+    "languageExchange": {
+      "title": "Dil Değişimi",
+      "description": "Ana dil konuşanlarıyla dil pratiği yapın"
+    },
+    "culturalDiscovery": {
+      "title": "Kültürel Keşif",
+      "description": "Farklı kültürleri ve gelenekleri öğrenin"
+    }
+  },
+  "guidelinesScreen": {
+    "safeCommunityStandards": "Güvenli Topluluk Standartları",
+    "introDescription": "WorldFriends'e hoş geldiniz! Lütfen topluluk kurallarımızı okuyun ve kabul edin.",
+    "agreement": "Topluluk kurallarını kabul ediyorum"
+  },
+  "supporter": {
+    "title": "WorldFriends'i Destekle",
+    "whySectionTitle": "Neden Destekçi Olmalısınız?",
+    "whySectionDesc": "WorldFriends, solo bir geliştirici tarafından oluşturulan tutku projesidir. Tek seferlik 2,99$ bağışınız sürekli gelişime yardımcı olur ve uygulamanın herkes için ücretsiz kalmasını sağlar",
+    "getSection": {
+      "title": "Elde Ettikleriniz",
+      "firstBenefit": "Profilinizde özel destekçi kalp rozeti",
+      "secondBenefit": "Sonsuz minnettarlık ve destekçi statüsü",
+      "thirdBenefit": "Dünya çapında insanları bağlamaya katkıda bulunun"
+    },
+    "ctaButton": "Destekçi Ol - ",
+    "ctaNote": "Tek seferlik ödeme • RevenueCat ile desteklenmektedir 🐱",
+    "thankYou": "Desteğiniz için teşekkürler! ❤️"
+  },
+  "appInfo": {
+    "sponseredBy": "Gururla Sponsor",
+    "convexDesc": "Yazılım geliştiriciler için hayat değiştiren Reaktif Backend as a Service",
+    "aboutApp": "Bu Platform Hakkında",
+    "infoDesc": "WorldFriends, küresel bağlantıların gücüne inanan özveri sahibi bir öğrenci tarafından oluşturulan bir tutku projesidir. Bu platform, farklı kültürlerden, dillerden ve geçmişlerden insanları bir araya getirir",
+    "getInTouch": "İletişime Geçin",
+    "footerText": "Bir öğrenci tarafından ❤️ ile yapıldı",
+    "appVersion": "© 2025 WorldFriends • Sürüm 1.0.0"
+  },
+  "auth": {
+    "signupTitle": "Hesap Oluştur",
+    "signupSubTitle": "Bize katılın ve yolculuğunuza başlayın",
+    "loginTitle": "Tekrar Hoş Geldiniz",
+    "loginSubTitle": "Kimlik bilgilerinizi girin",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi Onayla",
+    "noAccountCTA": "Hesabınız yok mu? ",
+    "alreadyHaveAccountCTA": "Zaten hesabınız var mı? ",
+    "signIn": "Giriş Yap",
+    "signUp": "Kaydol",
+    "verifyEmail": "E-postayı Doğrula",
+    "enterCode": "Gönderilen 6 haneli kodu girin"
+  },
+  "collections": {
+    "create": {
+      "title": "Yeni Koleksiyon",
+      "placeholder": "Koleksiyon adını yazın..."
+    }
+  },
+  "comments": {
+    "addComment": "Yorum ekle...",
+    "reply": "Yanıtla",
+    "replyingTo": "Yanıtlanıyor",
+    "showReply": "Yanıtı göster",
+    "hideReply": "Yanıtı gizle"
+  },
+  "greetings": {
+    "goodMorning": "Günaydın",
+    "goodAfternoon": "Tünaydın",
+    "goodEvening": "İyi akşamlar",
+    "goodNight": "İyi geceler"
+  },
+  "filterModal": {
+    "title": "Filtreler",
+    "country": "Ülke",
+    "languageSpoken": "Konuşulan Dil",
+    "languageLearning": "Öğrenilen Dil"
+  },
+  "emptyState": {
+    "notifications": "Henüz bildirim yok",
+    "userNotFound": "Kullanıcı bulunamadı"
+  },
+  "friendRequestSheet": {
+    "title": "Arkadaşlık İsteği Gönder",
+    "message": "Mesaj",
+    "placeholder": "Bir mesaj yazın..."
+  },
+  "userCard": {
+    "country": "Ülke",
+    "speaks": "Konuşur",
+    "learning": "Öğrenir"
+  },
+  "notifications": {
+    "clearAll": "Tümünü Temizle",
+    "emptySubtext": "Arkadaşlık istekleri, mesajlar ve diğer etkinlikler hakkındaki bildirimleri burada göreceksiniz"
+  },
+  "actions": {
+    "composeLetter": "Mektup Yaz",
+    "writeSomething": "Bir şeyler Yaz",
+    "deletePost": "Gönderiyi Sil",
+    "removeFromCollection": "Koleksiyondan Çıkar",
+    "addToCollection": "Koleksiyona Ekle",
+    "reportPost": "Gönderiyi Şikayet Et",
+    "reportUser": "Kullanıcıyı Şikayet Et",
+    "blockUser": "Kullanıcıyı Engelle",
+    "removeFriend": "Arkadaşı Çıkar",
+    "deleteConversation": "Sohbeti Sil",
+    "deleteMessage": "Mesajı Sil",
+    "deleteLetter": "Mektubu Sil"
+  },
+  "confirmation": {
+    "logout": {
+      "description": "Çıkış yapmak istediğinizden emin misiniz?"
+    },
+    "deleteAccount": {
+      "description": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+    },
+    "removeFriend": {
+      "description": "Bu arkadaşı çıkarmak istediğinizden emin misiniz? "
+    },
+    "deleteComment": {
+      "description": "Bu yorumu silmek istediğinizden emin misiniz?"
+    },
+    "deleteConversation": {
+      "description": "Bu sohbeti silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+    },
+    "deleteMessage": {
+      "description": "Bu mesajı silmek istediğinizden emin misiniz?"
+    },
+    "deleteCollection": {
+      "description": "Bu koleksiyonu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+    },
+    "removeFromCollection": {
+      "description": "Bu gönderiyi koleksiyondan çıkarmak istediğinizden emin misiniz?"
+    },
+    "deletePost": {
+      "description": "Bu gönderiyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+    },
+    "discardPost": {
+      "description": "Bu gönderiyi atmak istediğinizden emin misiniz?"
+    },
+    "createPost": {
+      "description": "Gönderinizi arkadaşlarınızla paylaşmaya hazır mısınız?"
+    },
+    "blockUser": {
+      "description": "Bu kullanıcıyı engellemek istediğinizden emin misiniz?"
+    },
+    "discardLetter": {
+      "description": "Bu mektubu atmak istediğinizden emin misiniz? Tüm ilerlemeniz kaybolacak."
+    },
+    "sendLetter": {
+      "description": "Bu mektup {{countryFlag}} {{name}} adlı kişiye teslim edilecek"
+    }
+  },
+  "successToasts": {
+    "collectionCreated": {
+      "text1": "Koleksiyon Oluşturuldu",
+      "text2": "Koleksiyonunuz oluşturuldu"
+    },
+    "collectionDeleted": {
+      "text1": "Koleksiyon Silindi",
+      "text2": "Koleksiyon başarıyla silindi"
+    },
+    "postAddedToCollection": {
+      "text1": "Gönderi Eklendi",
+      "text2": "Gönderi koleksiyona eklendi"
+    },
+    "postRemovedFromCollection": {
+      "text1": "Gönderi Çıkarıldı",
+      "text2": "Gönderi koleksiyondan çıkarıldı"
+    },
+    "letterDeleted": {
+      "text1": "Mektup Silindi",
+      "text2": "Mektup başarıyla silindi"
+    },
+    "languageChanged": {
+      "text1": "Dil Değiştirildi",
+      "text2": "Dil tercihi güncellendi"
+    },
+    "accountDeleted": {
+      "text1": "Hesap Silindi",
+      "text2": "Hesap kalıcı olarak silindi"
+    },
+    "reportSubmitted": {
+      "text1": "Şikayet Gönderildi",
+      "text2": "Topluluğumuzu güvenli tutmaya yardımcı olduğunuz için teşekkürler"
+    },
+    "conversationDeleted": {
+      "text1": "Sohbet Silindi",
+      "text2": "Sohbet silindi"
+    },
+    "postDeleted": {
+      "text1": "Gönderi Silindi",
+      "text2": "Gönderiniz silindi"
+    }
+  },
+  "errorToasts": {
+    "genericError": {
+      "text1": "Hata",
+      "text2": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin."
+    },
+    "validationError": {
+      "text1": "Doğrulama Hatası",
+      "text2": "Lütfen girişinizi kontrol edin"
+    },
+    "invalidAuthCredentials": {
+      "text1": "Geçersiz Kimlik Bilgileri",
+      "text2": "E-posta veya şifre yanlış"
+    },
+    "invalidOTP": {
+      "text1": "Geçersiz Kod",
+      "text2": "Lütfen 6 haneli kod girin"
+    },
+    "postAlreadyInCollection": {
+      "text1": "Zaten Koleksiyonda",
+      "text2": "Bu gönderi zaten bir koleksiyonda"
+    },
+    "cameraPermission": {
+      "text1": "Kamera İzni Gerekli",
+      "text2": "Fotoğraf çekmek için lütfen kamera izni verin"
+    },
+    "photoLibraryPermission": {
+      "text1": "Fotoğraf Galerisi İzni Gerekli",
+      "text2": "Fotoğraf seçmek için lütfen galeri izni verin"
+    }
+  },
+  "guidelines": {
+    "first": {
+      "title": "Diğerlerine Saygılı Olun",
+      "description": "Tüm topluluk üyelerine nezaket, saygı ve onurla davranın. Taciz, zorbalık veya ayrımcı davranışlara tolerans gösterilmeyecektir."
+    },
+    "second": {
+      "title": "Flört veya Çıkma Davranışı Yok",
+      "description": "Bu platform sadece dostluk ve kültürel değişim için tasarlanmıştır. Romantik yaklaşımlar veya çıkma teklifleri uygun değildir."
+    },
+    "third": {
+      "title": "Yüz Yüze Buluşma Yok",
+      "description": "Güvenliğiniz için diğer kullanıcılarla yüz yüze buluşma ayarlamayın. Tüm etkileşimleri uygulamanın güvenli ortamında tutun."
+    },
+    "fourth": {
+      "title": "Kişisel Bilgileri Koruyun",
+      "description": "Tam adınız, adresiniz, telefon numaranız, finansal bilgileriniz veya diğer hassas veriler gibi kişisel detayları asla paylaşmayın."
+    },
+    "fifth": {
+      "title": "Uygun Dil Kullanın",
+      "description": "Sohbetleri temiz ve aile dostu tutun. Küfür, açık içerik veya saldırgan dil kesinlikle yasaktır."
+    },
+    "sixth": {
+      "title": "Uygunsuz Davranışları Bildirin",
+      "description": "Bu yönergelerin ihlalini fark ederseniz, güvenli bir topluluk sürdürmek için lütfen derhal bildirin."
+    },
+    "seventh": {
+      "title": "Otantik Olun",
+      "description": "Gerçek fotoğraflarınızı kullanın ve kendiniz hakkında dürüst bilgiler verin. Sahte profiller ve catfishing'e izin verilmez."
+    },
+    "eighth": {
+      "title": "Kültürel Farklılıklara Saygı Gösterin",
+      "description": "Çeşitliliği kucaklayın ve farklı kültürler, gelenekler ve bakış açıları hakkında açık fikirle öğrenmeye istekli olun."
+    },
+    "ninth": {
+      "title": "Spam veya Kendi Kendine Tanıtım Yok",
+      "description": "Tekrarlayan mesajlar göndermeyin, reklam yapmayın veya harici hizmetleri, web sitelerini veya sosyal medya hesaplarını tanıtmayın."
+    },
+    "tenth": {
+      "title": "Sohbetleri Anlamlı Tutun",
+      "description": "Yüzeysel etkileşimler yerine dostluk, dil öğrenimi ve kültürel değişime odaklanan gerçek sohbetlere katılın."
+    },
+    "eleventh": {
+      "title": "Gizlilik Ayarlarına Saygı Gösterin",
+      "description": "Diğer kullanıcıların gizlilik tercihlerini ve sınırlarını onurlandırın. Kimseyi rahat hissettiğinden fazlasını paylaşmaya zorlamayın."
+    },
+    "twelfth": {
+      "title": "Ticari Faaliyetler Yok",
+      "description": "Bu platform ticari işlemler, ürün satışı veya ticari faaliyetler için değildir. Etkileşimleri sosyal ve dostane tutun."
+    },
+    "thirteenth": {
+      "title": "Özellikleri Sorumlu Kullanın",
+      "description": "Tüm uygulama özelliklerini amaçlandığı gibi kullanın. Gerçek dostluk kurma dışındaki amaçlar için hiçbir işlevselliği kötüye kullanmayın veya istismar etmeyin."
+    },
+    "fourteenth": {
+      "title": "Dil Öğrenenlere Sabırlı Olun",
+      "description": "Dilinizi öğrenen kullanıcılarla iletişim kurarken anlayış ve sabır gösterin. Onların nezaketle gelişmesine yardımcı olun."
+    },
+    "fifteenth": {
+      "title": "Nefret Söylemi veya Ayrımcılık Yok",
+      "description": "Din, milliyet veya kişisel özellikler temelinde nefret söylemi, ırkçılık, cinsiyetçilik veya ayrımcılığın herhangi bir biçimi yasaktır."
+    },
+    "sixteenth": {
+      "title": "Yaşa Uygun Etkileşimleri Sürdürün",
+      "description": "Tüm sohbetlerin ve paylaşılan içeriklerin çeşitli topluluğumuzdaki her yaştan kullanıcı için uygun olduğundan emin olun."
+    },
+    "seventeenth": {
+      "title": "Harici İletişim Bilgilerini Paylaşmayın",
+      "description": "E-posta, sosyal medya hesapları veya mesajlaşma uygulaması detayları gibi harici iletişim bilgilerini paylaşmayın veya istemeyin."
+    },
+    "eighteenth": {
+      "title": "Saat Dilimlerine ve Müsaitliğe Saygı Gösterin",
+      "description": "Kullanıcıların farklı saat dilimlerinden geldiğini unutmayın. Anında yanıt beklemeyin ve diğerlerinin müsaitliğine saygı gösterin."
+    },
+    "nineteenth": {
+      "title": "Fotoğrafları Uygun Tutun",
+      "description": "Sadece uygun, müstehcen olmayan fotoğraflar paylaşın. Profil fotoğrafları yüzünüzü açıkça göstermeli ve tüm kitleler için uygun olmalıdır."
+    },
+    "twentieth": {
+      "title": "Yerel Yasalara Uyun",
+      "description": "Platformdaki tüm faaliyetlerinizin ülkeniz ve bölgenizdeki yerel yasa ve düzenlemelere uygun olduğundan emin olun."
+    }
+  },
+  "notification": {
+    "friend_request_sent": "{{senderName}} size {{country}} ülkesinden arkadaşlık isteği gönderdi",
+    "friend_request_accepted": "{{country}} ülkesinden {{senderName}} arkadaşlık isteğinizi kabul etti",
+    "friend_request_rejected": "{{senderName}} arkadaşlık isteğinizi reddetti",
+    "friend_removed": "{{senderName}} sizi arkadaşlarından çıkardı",
+    "conversation_deleted": "{{senderName}} sohbeti sildi",
+    "user_blocked": "{{senderName}} sizi engelledi",
+    "post_reaction": "{{country}} ülkesinden {{senderName}} gönderinize tepki verdi",
+    "post_commented": "{{country}} ülkesinden {{senderName}} gönderinizi yorumladı",
+    "comment_replied": "{{country}} ülkesinden {{senderName}} yorumunuzu yanıtladı",
+    "letter_scheduled": "{{country}} ülkesinden {{senderName}} tarafından {{count}} {{dayLabel}} içinde bir mektup alacaksınız"
+  },
+  "time": {
+    "just_now": "Şimdi",
+    "minute": "1 dakika önce",
+    "minutes": "dakika önce",
+    "hour": "1 saat önce",
+    "hours": "saat önce",
+    "yesterday": "Dün",
+    "tomorrow": "Yarın",
+    "days": "gün önce",
+    "week": "1 hafta önce",
+    "weeks": "hafta önce",
+    "month": "1 ay önce",
+    "months": "ay önce",
+    "year": "1 yıl önce",
+    "years": "yıl önce"
+  }
+}
