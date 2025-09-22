@@ -58,12 +58,11 @@ export default function AppInfoScreen() {
             <View style={styles.locationContainer}>
               <Ionicons name="location-outline" size={scale(20)} color={theme.colors.error} />
               <Text style={[styles.locationText, { color: theme.colors.textMuted }]}>
-                San Francisco, CA 🇺🇸
+                San Francisco, California 🇺🇸
               </Text>
             </View>
             <Button
-              iconName="information-circle-sharp"
-              text="About Convex"
+              iconName="arrow-forward"
               onPress={handleConvexPress}
             />
           </View>

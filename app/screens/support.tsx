@@ -28,6 +28,8 @@ export default function SupportScreen() {
         isPurchasing,
         isRestoring,
         supporterPackage,
+
+
         makePurchase,
         restoreUserPurchases,
         initializeSDK,

@@ -13,6 +13,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import Toast from "react-native-toast-message";
 import { toastConfig } from "@/components/common/ToastConfig";
+import "@/lib/i18n"
 
 const convex = new ConvexReactClient(process.env.EXPO_PUBLIC_CONVEX_URL!, {
   unsavedChangesWarning: false,
@@ -60,36 +61,37 @@ function AppContent() {
 
   return (
     <NavigationThemeProvider value={navigationTheme}>
-      <SafeAreaProvider style={{ backgroundColor: theme.colors.background }}>
-        <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="index" options={{ headerShown: false }} />
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="screens" options={{ headerShown: false }} />
-          <Stack.Screen name="(auth)" options={{ headerShown: false }} />
-        </Stack>
-        <Toast config={toastConfig} />
-      </SafeAreaProvider>
+      <ConvexAuthProvider
+        client={convex}
+        storage={
+          Platform.OS === "android" || Platform.OS === "ios"
+            ? secureStorage
+            : undefined
+        }
+      >
+        <SafeAreaProvider style={{ backgroundColor: theme.colors.background }}>
+          <Stack screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="index" options={{ headerShown: false }} />
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="screens" options={{ headerShown: false }} />
+            <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+          </Stack>
+          <Toast config={toastConfig} />
+        </SafeAreaProvider>
+      </ConvexAuthProvider>
     </NavigationThemeProvider>
   );
 }
 
 export default function RootLayout() {
+
   return (
-    <ConvexAuthProvider
-      client={convex}
-      storage={
-        Platform.OS === "android" || Platform.OS === "ios"
-          ? secureStorage
-          : undefined
-      }
-    >
-      <GestureHandlerRootView style={{ flex: 1 }}>
-        <ThemeProvider>
-          <SystemBarsProvider>
-            <AppContent />
-          </SystemBarsProvider>
-        </ThemeProvider>
-      </GestureHandlerRootView>
-    </ConvexAuthProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <ThemeProvider>
+        <SystemBarsProvider>
+          <AppContent />
+        </SystemBarsProvider>
+      </ThemeProvider>
+    </GestureHandlerRootView>
   );
 }

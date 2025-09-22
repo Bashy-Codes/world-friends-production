@@ -29,8 +29,7 @@
         "android.permission.READ_MEDIA_IMAGES",
         "com.android.vending.BILLING"
       ],
-      "package": "app.worldfriends",
-      "versionCode": 1
+      "package": "app.worldfriends"
     },
     "plugins": [
       "expo-router",
